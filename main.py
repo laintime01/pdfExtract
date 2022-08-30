@@ -54,5 +54,5 @@ def extract_table_from_pdf(pdf_name):
 if __name__ == '__main__':
     print("------start extract------")
     extract_pdf_text("textsample.pdf")
-    # extract_image_from_pdf("sample.pdf")
+    extract_image_from_pdf("sample.pdf")
     extract_table_from_pdf("sample.pdf")
